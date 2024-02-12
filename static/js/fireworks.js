@@ -154,6 +154,6 @@ const cursorSpecialEffects = new CursorSpecialEffects()
 cursorSpecialEffects.init()
 
 console.group("System");
-console.log("作者QQ：1809185784");
-console.log("博客：https://www.xfabe.com");
+console.log("作者QQ：2441555908");
+console.log("博客：https://010702.xyz");
 console.groupEnd();
