@@ -1,0 +1,145 @@
+<!-- ----------------------------------
+ * sterling专用引导页
+ * 源作者：小枫
+ * 作者：sterling
+ * 技术栈：
+ * UI：Photoshop
+ * 前端：HTML5 CSS3 JS jQuery
+ * 本源码可以任意转载，但不能商用或变相商用！代码制作不易希望转载者能给枫留个名  :heart: (ɔˆз(ˆ⌣ˆc)（开源版严禁商用）。
+
+ -------------------------------------- -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>VIP视频解析-Sterling出品</title>
+    <meta name="keywords" content="毛玻璃,毛玻璃个人主页,个人主页,毛玻璃ui,拟态ui设计,拟态ui,个人引导页,个人介绍页,拟态引导页,简约个人主页,个人主页源码,原创,Sterling,Sterling拟态ui,Sterling拟态ui5.0">
+    <meta name="description" content="毛玻璃拟态UI个人主页是Sterling设计的一款简约风格开源的新UI主页设计。">
+    <meta name="author" content="Sterling">
+    <link rel="shortcut icon" href="https://www.xfabe.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/Swiper/8.3.0/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="./static/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="./static/css/normalize.css">
+    <!-- 点开下面两个css，都是第四行代码替换背景 -->
+    <link rel="stylesheet" href="./static/css/style.pclzh.css" media="screen and (min-width: 992px)"> <!-- PC端 -->
+    <link rel="stylesheet" href="./static/css/style.phonelzh.css" media="screen and (max-width: 992px)"> <!-- 移动端 -->
+    <!-- 本地路径（如果免费的静态托管链接打不开就开本地的吧） -->
+    <!-- <script src="./static/sweetalert/docs/assets/sweetalert/sweetalert.min.js"></script> -->
+    <!-- <script src="./static/js/jquery-3.5.1.min.js"></script> -->
+    <!-- 静态资源托管 -->
+    <script src="https://npm.elemecdn.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="./css/aplayer.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/APlayer.min.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/color.css"/>
+  <script src="https://lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel=stylesheet type=text/css href="./css/app-mplayer.css">
+
+
+
+
+</head>
+
+<body onmousedown="getClick(event)">
+
+<div id="nav-music">
+  <div id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()">播放音乐</div>
+  <meting-js id="531321323" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js>
+</div>
+
+    <div class="xf_load">
+        <span>页面加载中...</span>
+    </div>
+    <section class="big_box">
+        <header class="xf_hd_box">
+            <!-- 标题 -->
+            <h1>VIP视频解析</h1>
+            <!-- 标题阴影（两个要改一样的） -->
+            <h2 class="xf_glass">VIP视频解析</h2>
+            <div class="xf_search">
+                <form action="https://www.baidu.com/baidu" target="_blank">
+                    <input type="text" name="word" size="30" autocomplete="off" placeholder="百度一下">
+                    <input type="submit" value=""><i class="iconfont icon-sousuo"></i>
+                </form>
+            </div>
+        </header>
+        <div class="main_content">
+            <div class="xf_zizhi_box slidebox">
+                <div class="xf_zizhi_top xf_glass">
+
+			<div style="text-align: center;">
+                        <iframe src="./jx.html" allowfullscreen="true" id="player" width="1270px" height="1800px" allowtransparency="true" frameborder="0" scrolling="no"></iframe></div>
+
+
+
+
+
+
+
+
+
+
+
+
+               <div class="xf_friends" style="display: none;">
+                    <h4 id="xf-friend-rotate"><img src="./static/images/cooperation.png">我的好友</h4>
+                    <ul class="xf_friend_YYDS">
+                        <li>
+                            <!-- 跳转链接 把123456替换你的QQ就行 -->
+                            <a href="http://wpa.qq.com/msgrd?v=3&uin=2441555908&site=qq&menu=yes" target="_blank" rel="noopener noreferrer">
+                                <!-- 获取你的QQ头像 -->
+                                <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=2441555908&amp;spec=100" alt="LZH">
+                                <h5>LZH</h5>
+                                <p>代码改变一切！</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://wpa.qq.com/msgrd?v=3&uin=577494893&site=qq&menu=ye" target="_blank" rel="noopener noreferrer">
+                                <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=577494893&amp;spec=100" alt="LZH">
+                                <h5>拉马尔</h5>
+                                <p>code make life！</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    <div class="xf-swiper-pagination"></div>
+    <footer class="xf_footer xf_glass">
+        <p>Copyright &copy; 2024 <a href="https://010702.xyz/" rel="noopener noreferrer">Sterling</a> 版权所有 已安全运行<span class="xf-days"></span></p>
+        <!-- 如果没有备案号就把下面两个p标签注释
+        <p><img src="./static/images/icp.png" alt="icp备案"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2020011714号-5</a></p>
+        <p><img src="./static/images/beian.png" alt="公安备案"><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36082502000055" target="_blank" rel="noopener noreferrer">赣公网安备36082502000055号</a></p> -->
+    </footer>
+    <script src="https://cdn.staticfile.org/Swiper/8.3.0/swiper-bundle.min.js"></script>
+    <!-- <script src="./static/swiper/swiper-bundle.min.js"></script> -->
+    <script src="./static/js/flexible.js"></script>
+    <script src="./static/js/fireworks.js"></script>
+    <script src="./static/js/index.js"></script>
+    <script src="https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0"></script>
+    <script>
+        // 这里修改网站运行时间
+        var xf_footer_time1=new Date('2024-02-11').getTime()
+        var xf_footer_time2=new Date().getTime()
+        var days=xf_footer_time2-xf_footer_time1
+        var number_of_days=parseInt(days/(1000*60*60*24))
+        $(".xf-days")[0].innerHTML=number_of_days+'天'
+    </script>
+</body>
+<script src="./js/APlayer.min.js"></script>
+<script src="./js/Meting2.min.js"></script>
+<script async data-pjax src="./js/anzhiyu.js"></script>
+<script async data-pjax src="./js/anzhiyufunction.js"></script>
+<script async src="./js/anzhiyuOnlyOne.js"></script>
+</html>
