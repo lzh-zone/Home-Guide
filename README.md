@@ -1,16 +1,17 @@
-# 毛玻璃拟态UI - 个人主页（开源版）
+# LZH毛玻璃拟态UI - 个人主页+VIP视频解析（开源版）
 
 #### 介绍
+二开优化：LZH
+源作者：小枫
 
-作者：小枫
-
-毛玻璃拟态UI个人主页是小枫原创的一款简约风格开源的新UI主页设计。
+LZH毛玻璃拟态UI毛玻璃拟态UI个人主页是小枫原创的一款简约风格开源的新UI主页设计。
 
 当然你们可以说这个是拟态UI5.0的版本！ :laughing: 
 
 #### 演示站（开源版）
-
-[www.xfabe.com/YYDS/GlassUI](https://www.xfabe.com/YYDS/GlassUI)
+主页[cntv.pp.ua](https://cntv.pp.ua/)
+VIP解析页[cntv.pp.ua/vip.html](https://cntv.pp.ua/vip.html)
+https://cntv.pp.ua/
 
 #### 技术栈
 
@@ -24,7 +25,7 @@ UI：Photoshop
 
 #### 注意事项
 
-1.  本源码可以任意转载，但不能商用或变相商用！代码制作希望转载者能给枫留个名  :heart: (ɔˆз(ˆ⌣ˆc)（开源版严禁商用）。
+1.  本源码可以任意转载，但不能商用或变相商用！代码制作希望转载者能给LZH留个名  :heart: (ɔˆз(ˆ⌣ˆc)（开源版严禁商用）。
 
 2.  想要商用可以联系合作商或者代理商购买卡密（作者不参与售卖）。
 
@@ -33,10 +34,6 @@ UI：Photoshop
 ![展示图1](%E5%B1%95%E7%A4%BA1.jpg)
 ![展示图2](%E5%B1%95%E7%A4%BA2.jpg)
 ![展示图3](%E5%B1%95%E7%A4%BA3.jpg)
-
-#### 授权版项目
-
-[https://gitee.com/xfwlclub/glass-UIAuth](https://gitee.com/xfwlclub/glass-UIAuth)
 
 
 #### 特技
